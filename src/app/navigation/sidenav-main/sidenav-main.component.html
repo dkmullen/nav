@@ -1,0 +1,10 @@
+<mat-drawer-container class="main-container">
+    <mat-drawer mode="side" opened class="sidenav-main">
+        <span (click)="toggleSlideMenu()">Drawer content</span></mat-drawer>
+    <mat-drawer-content>
+      Main content
+        <div class="sidenav-secondary" id="slider-menu" [ngClass]="{'open' : isOpen}">
+            Here we go
+        </div>
+    </mat-drawer-content>
+  </mat-drawer-container>

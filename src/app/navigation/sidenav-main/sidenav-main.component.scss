@@ -1,0 +1,22 @@
+.main-container {
+    height: 100vh;
+    background-color: black;
+}
+
+.sidenav-main {
+    width: 250px;
+}
+
+.sidenav-secondary {
+    width: 250px;
+    background-color: darkblue;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    transition: 300ms;
+}
+.open {
+    left: 0;
+    transition: 300ms;
+}
